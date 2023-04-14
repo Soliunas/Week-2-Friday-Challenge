@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 730px;
+}
+main {
+    display: flex;
+    width: 1000px;
+    margin-left: calc((100% - 900px) / 2);
+    margin: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img {
+    width: 230px;
+}
+main > div {
+    flex: 1;
+    padding: 1.2em;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(224, 83, 63);
+}
+p {
+    color: rgb(75, 75, 75);
+}
